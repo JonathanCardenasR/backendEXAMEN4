@@ -1,5 +1,5 @@
 # Choose the Image which has Node installed already
-FROM --platform=linux/amd64 node:alpine
+FROM --platform=linux/arm64 node:alpine
 
 # COPY all the files from Current Directory into the Container
 COPY ./ ./
