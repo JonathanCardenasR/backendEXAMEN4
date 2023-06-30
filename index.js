@@ -2,7 +2,7 @@ import app from "./app.js";
 import "./models/associations.js";
 import { sequelize } from "./database/database.js";
 
-const PORT = 3000;
+const PORT = 80;
 
 const main = async () => {
   try {
